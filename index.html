@@ -3,10 +3,65 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="/CSS/style.css" />
     <title>Login Page</title>
   </head>
   <body>
+    <div class="wrapper">
+      <div class="login_box rainbow">
+        <div class="login-header rainbow">
+          <span>Login</span>
+        </div>
+        <div class="input_box">
+          <input
+            type="text"
+            id="username"
+            class="input-field"
+            placeholder="@username/email@gmail.com"
+            required />
+          <label for="username" class="labl">User</label>
+          <i class="fa-solid fa-circle-user"></i>
+        </div>
+        <div class="input_box">
+          <input
+            type="password"
+            id="pass"
+            class="input-field"
+            placeholder="password"
+            required />
+          <label for="pass" class="labl">Password</label>
+          <i class="fa-solid fa-lock"></i>
+        </div>
+        <div class="remember-forget">
+          <div class="remember-me checkbox-wrapper-43">
+            <input type="checkbox" id="remember" />
+            <label for="remember" class="check">
+              <svg width="18px" height="18px" viewBox="0 0 18 18">
+                <path
+                  d="M1,9 L1,3.5 C1,2 2,1 3.5,1 L14.5,1 C16,1 17,2 17,3.5 L17,14.5 C17,16 16,17 14.5,17 L3.5,17 C2,17 1,16 1,14.5 L1,9 Z"></path>
+                <polyline points="1 9 7 14 15 4"></polyline>
+              </svg>
+              <span class="label-text">Remember Me</span>
+            </label>
+          </div>
+          <div class="forgot">
+            <a href="#">Forgot Password?</a>
+          </div>
+        </div>
+        <div class="input_box">
+          <input type="submit" class="input-submit" value="Login" />
+        </div>
+        <div class="register">
+          <span>Create a new account <a href="#">Register</a></span>
+        </div>
+      </div>
+    </div>
     <script src="/JavaScript/script.js"></script>
   </body>
 </html>
