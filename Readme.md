@@ -43,6 +43,5 @@ It features animated floating labels, a glassmorphism-style login card, and a sm
 | ----------------------- | -------------------------------- |
 | 🧩 **HTML5**            | Structure and content            |
 | 🎨 **CSS3**             | Layout, styling, and animations  |
-| ⚙️ **JavaScript (ES6)** | Input behavior and interactivity |
 | 🖼️ **Font Awesome**     | Form icons                       |
 | 🌆 **Netlify**          | Hosting and deployment           |
