@@ -3,7 +3,7 @@
 A clean, modern **Login Page UI** built using **HTML** and **CSS** 
 It features animated floating labels, a glassmorphism-style login card, and a smooth custom checkbox animation for the “Remember Me” option.
 
-🌐 **Live Demo:** [tmx-log-in-page.netlify.app](https://tmx-log-in-page.netlify.app/)
+🌐 **Live Demo :** [Log-in Page](https://tmx-log-in-page.netlify.app/)
 
 ---
 
