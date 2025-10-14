@@ -7,19 +7,6 @@ It features animated floating labels, a glassmorphism-style login card, and a sm
 
 ---
 
-## 📁 File Overview
-
-📂 Login-Page/
-├── 📄 index.html # Main login page
-├── 📁 CSS/
-│ └── style.css # Page styling and animations
-├── 📁 JavaScript/
-│ └── script.js # Basic interactivity
-├── 📁 Image/
-│ └── img.jpg # Background image
-
----
-
 ## 🖼️ Preview
 
 ![Login Page Preview](/Image/preview.png)
